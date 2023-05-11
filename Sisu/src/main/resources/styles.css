@@ -1,0 +1,152 @@
+/* styles.css */
+
+/* General styles for the application */
+
+.label, .text-field, .numeric-text-field, .check-box {
+  -fx-font-weight: bold;
+  -fx-text-fill: #fff;
+  -fx-border-radius: 5;
+  -fx-background-radius: 5;
+}
+
+.button {
+  -fx-background-color: #555;
+  -fx-border-color: #555;
+  -fx-text-fill: #ffffff;
+  -fx-border-radius: 5px;
+  -fx-background-radius: 5px;
+}
+
+.button:hover {
+  -fx-background-color: #888;
+}
+
+/* Specific styles */
+/* -------------------Settings.java------------------------- */
+/* SettingsDialog */
+
+.dialog-pane {
+  -fx-background-color: #000;
+}
+
+.dialog-pane .header-panel {
+  -fx-background-color: #000;
+}
+
+.dialog-pane .header-panel .label{
+  -fx-text-fill: #ffffff;
+  -fx-alignment: center;
+}
+
+.dialog-pane .text-field, .dialog-pane .numeric-text-field {
+  -fx-background-color: #555;
+  -fx-border-color: #555;
+}
+
+.dialog-pane .text-field:hover, .dialog-pane .numeric-text-field:hover {
+  -fx-background-color: #888;
+  -fx-border-color: #888;
+}
+
+/* SettingsContent */
+
+#settings-content-root {
+  -fx-background-color: #000;
+}
+
+#settings-content-root .text-field, .dialog-pane .numeric-text-field {
+  -fx-background-color: #555;
+  -fx-border-color: #555;
+}
+
+#settings-content-root .text-field:hover, .dialog-pane .numeric-text-field:hover {
+  -fx-background-color: #888;
+  -fx-border-color: #888;
+}
+
+/* -------------------Sisu.java------------------------- */
+/* TabPane and Tabs */
+
+.tab-pane {
+  -fx-background-color: #000;
+  -fx-border-color: #000;
+}
+
+.tab-pane .tab-header-background {
+  -fx-background-color: #000;
+}
+
+.tab-pane .tab {
+  -fx-background-color: #000;
+  -fx-border-color: #ffffff #ffffff transparent #ffffff;
+}
+
+.tab-pane .tab:hover {
+  -fx-background-color: #888;
+}
+
+.tab-pane .tab .tab-label {
+  -fx-text-fill: #ffffff;
+}
+
+
+
+.degreeComboBox {
+  -fx-background-color: #000;
+  -fx-border-color: #ffffff;
+  -fx-text-fill: #ffffff;
+  -fx-border-style: solid;
+  -fx-border-radius: 5px;
+}
+
+.degreeComboBox .list-cell {
+  -fx-background-color: #000;
+}
+
+.degreeComboBox .list-cell:hover {
+  -fx-background-color: #888;
+}
+
+.curriculumComboBox {
+  -fx-background-color: #000;
+  -fx-border-color: #ffffff;
+  -fx-text-fill: #ffffff;
+  -fx-border-style: solid;
+  -fx-border-radius: 5px;
+  -fx-max-width: 200px;
+}
+
+.curriculumComboBox .list-cell {
+  -fx-background-color: #000;
+}
+
+.curriculumComboBox .list-cell:hover {
+  -fx-background-color: #888;
+}
+
+.tree-view  {
+  -fx-border-color: #ffffff;
+  -fx-border-width: 1px;
+  -fx-border-style: solid;
+}
+
+.tree-cell {
+  -fx-text-fill: white;
+  -fx-background-color: #000;
+}
+
+.scroll-pane .viewport {
+  -fx-background-color: #000;
+  -fx-border-color: #ffffff;
+  -fx-border-width: 2px; 
+  -fx-border-style: solid;
+}
+
+.courses-vbox {
+  -fx-padding: 6px 6px 6px 6px;
+}
+
+
+
+
+
